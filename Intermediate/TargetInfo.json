@@ -1,0 +1,14 @@
+{
+	"Targets": [
+		{
+			"Name": "Project_Vera",
+			"Path": "C:\\Users\\skull\\Documents\\Unreal Projects\\Project_Vera\\Source\\Project_Vera.Target.cs",
+			"Type": "Game"
+		},
+		{
+			"Name": "Project_VeraEditor",
+			"Path": "C:\\Users\\skull\\Documents\\Unreal Projects\\Project_Vera\\Source\\Project_VeraEditor.Target.cs",
+			"Type": "Editor"
+		}
+	]
+}
