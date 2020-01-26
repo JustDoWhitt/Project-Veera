@@ -1,0 +1,128 @@
+{
+	"version": "0.2.0",
+	"configurations": [
+		{
+			"name": "Project_Vera (Debug)",
+			"request": "launch",
+			"preLaunchTask": "Project_Vera Win64 Debug Build",
+			"program": "C:\\Users\\skull\\Documents\\Unreal Projects\\Project_Vera\\Binaries\\Win64\\UE4-Win64-Debug.exe",
+			"args": [
+			],
+			"cwd": "D:\\EpicGames\\UE_4.24",
+			"stopAtEntry": false,
+			"externalConsole": true,
+			"type": "cppvsdbg",
+			"visualizerFile": "D:\\EpicGames\\UE_4.24\\Engine\\Extras\\VisualStudioDebugging\\UE4.natvis"
+		},
+		{
+			"name": "Project_Vera (DebugGame)",
+			"request": "launch",
+			"preLaunchTask": "Project_Vera Win64 DebugGame Build",
+			"program": "C:\\Users\\skull\\Documents\\Unreal Projects\\Project_Vera\\Binaries\\Win64\\UE4-Win64-DebugGame.exe",
+			"args": [
+			],
+			"cwd": "D:\\EpicGames\\UE_4.24",
+			"stopAtEntry": false,
+			"externalConsole": true,
+			"type": "cppvsdbg",
+			"visualizerFile": "D:\\EpicGames\\UE_4.24\\Engine\\Extras\\VisualStudioDebugging\\UE4.natvis"
+		},
+		{
+			"name": "Project_Vera (Development)",
+			"request": "launch",
+			"preLaunchTask": "Project_Vera Win64 Development Build",
+			"program": "C:\\Users\\skull\\Documents\\Unreal Projects\\Project_Vera\\Binaries\\Win64\\UE4.exe",
+			"args": [
+			],
+			"cwd": "D:\\EpicGames\\UE_4.24",
+			"stopAtEntry": false,
+			"externalConsole": true,
+			"type": "cppvsdbg",
+			"visualizerFile": "D:\\EpicGames\\UE_4.24\\Engine\\Extras\\VisualStudioDebugging\\UE4.natvis"
+		},
+		{
+			"name": "Project_Vera (Shipping)",
+			"request": "launch",
+			"preLaunchTask": "Project_Vera Win64 Shipping Build",
+			"program": "C:\\Users\\skull\\Documents\\Unreal Projects\\Project_Vera\\Binaries\\Win64\\UE4-Win64-Shipping.exe",
+			"args": [
+			],
+			"cwd": "D:\\EpicGames\\UE_4.24",
+			"stopAtEntry": false,
+			"externalConsole": true,
+			"type": "cppvsdbg",
+			"visualizerFile": "D:\\EpicGames\\UE_4.24\\Engine\\Extras\\VisualStudioDebugging\\UE4.natvis"
+		},
+		{
+			"name": "Project_Vera (Test)",
+			"request": "launch",
+			"preLaunchTask": "Project_Vera Win64 Test Build",
+			"program": "C:\\Users\\skull\\Documents\\Unreal Projects\\Project_Vera\\Binaries\\Win64\\UE4-Win64-Test.exe",
+			"args": [
+			],
+			"cwd": "D:\\EpicGames\\UE_4.24",
+			"stopAtEntry": false,
+			"externalConsole": true,
+			"type": "cppvsdbg",
+			"visualizerFile": "D:\\EpicGames\\UE_4.24\\Engine\\Extras\\VisualStudioDebugging\\UE4.natvis"
+		},
+		{
+			"name": "Project_VeraEditor (Debug)",
+			"request": "launch",
+			"preLaunchTask": "Project_VeraEditor Win64 Debug Build",
+			"program": "D:\\EpicGames\\UE_4.24\\Engine\\Binaries\\Win64\\UE4Editor-Win64-Debug.exe",
+			"args": [
+				"C:\\Users\\skull\\Documents\\Unreal Projects\\Project_Vera\\Project_Vera.uproject"
+			],
+			"cwd": "D:\\EpicGames\\UE_4.24",
+			"stopAtEntry": false,
+			"externalConsole": true,
+			"type": "cppvsdbg",
+			"visualizerFile": "D:\\EpicGames\\UE_4.24\\Engine\\Extras\\VisualStudioDebugging\\UE4.natvis"
+		},
+		{
+			"name": "Project_VeraEditor (DebugGame)",
+			"request": "launch",
+			"preLaunchTask": "Project_VeraEditor Win64 DebugGame Build",
+			"program": "D:\\EpicGames\\UE_4.24\\Engine\\Binaries\\Win64\\UE4Editor-Win64-DebugGame.exe",
+			"args": [
+				"C:\\Users\\skull\\Documents\\Unreal Projects\\Project_Vera\\Project_Vera.uproject"
+			],
+			"cwd": "D:\\EpicGames\\UE_4.24",
+			"stopAtEntry": false,
+			"externalConsole": true,
+			"type": "cppvsdbg",
+			"visualizerFile": "D:\\EpicGames\\UE_4.24\\Engine\\Extras\\VisualStudioDebugging\\UE4.natvis"
+		},
+		{
+			"name": "Project_VeraEditor (Development)",
+			"request": "launch",
+			"preLaunchTask": "Project_VeraEditor Win64 Development Build",
+			"program": "D:\\EpicGames\\UE_4.24\\Engine\\Binaries\\Win64\\UE4Editor.exe",
+			"args": [
+				"C:\\Users\\skull\\Documents\\Unreal Projects\\Project_Vera\\Project_Vera.uproject"
+			],
+			"cwd": "D:\\EpicGames\\UE_4.24",
+			"stopAtEntry": false,
+			"externalConsole": true,
+			"type": "cppvsdbg",
+			"visualizerFile": "D:\\EpicGames\\UE_4.24\\Engine\\Extras\\VisualStudioDebugging\\UE4.natvis"
+		},
+		{
+			"name": "Generate Project Files",
+			"type": "clr",
+			"request": "launch",
+			"program": "D:\\EpicGames\\UE_4.24\\Engine\\Binaries\\DotNET\\UnrealBuildTool.exe",
+			"console": "externalTerminal",
+			"args": [
+				"-projectfiles",
+				"-vscode",
+				"-project=\"C:\\Users\\skull\\Documents\\Unreal Projects\\Project_Vera\\Project_Vera.uproject\"",
+				"-game",
+				"-engine"
+			],
+			"internalConsoleOptions": "openOnSessionStart",
+			"cwd": "D:\\EpicGames\\UE_4.24"
+		}
+	]
+}
